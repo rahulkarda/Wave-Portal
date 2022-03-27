@@ -107,3 +107,10 @@
     margin: 2rem auto;
   }
 }
+#wave{
+  text-align: center;
+  font-size: 24px;
+}
+#waveBody{
+  margin-top: 1rem;
+}
