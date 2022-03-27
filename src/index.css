@@ -29,7 +29,10 @@ code {
     padding: 30px 12px;
     width: 95%;
     font-size: 20px;
-
+    color: white;
+    background: black;
+    border: 2px solid white;
+    background: #1f2937;
 }
 #surprise{
   color: orange;
