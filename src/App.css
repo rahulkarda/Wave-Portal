@@ -1,0 +1,109 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+}
+.bio a{
+  color: orange;
+  text-decoration: none;
+}
+.bio a:hover{
+  text-decoration : underline;
+}
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+.waveButton{
+  margin-top: 1rem;
+  padding: 15px 60px;
+}
+.connectBtn{
+  background: orange;
+  color: white;
+  font-size: 18px;
+  padding: 15px 45px;
+}
+.waveBtn{
+  padding: 15px 72px;
+  background: #eecf4d;
+}
+.cakeBtn{
+  padding: 15px 63px;
+  background: #eb7dba;
+  
+}
+.hypeBtn{
+  padding: 15px 55px;
+  background: #6b99e6;
+}
+.button{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 2rem;
+}
+.footer{
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+.fa-brands{
+  font-size: 45px;
+  color: white;
+}
+
+@media screen and (min-width: 800px){
+  .button{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .waveBtn{
+    padding: 15px 40px;
+  }
+  .cakeBtn{
+    padding: 15px 35px;
+  }
+  .hypeBtn{
+    padding: 15px 23px;
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  #message{
+    padding: 22px 12px;
+    width: 70%;
+    margin-top: 1rem;
+  }
+
+  .connectBtn{
+    display: block;
+    margin: 2rem auto;
+  }
+}
