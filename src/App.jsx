@@ -135,7 +135,7 @@ const getAllWaves = async () => {
 			const { ethereum } = window;
 
 			if (!ethereum) {
-				alert('Get MetaMask!');
+				alert('Connect Metamask Wallet!');
 				return;
 			}
 
@@ -180,6 +180,7 @@ const getAllWaves = async () => {
 					gasLimit: 300000
 				});
 				console.log('Message: ', message);
+				document.getElementById('waveBody').innerHTML = `Message  : ${message}`;
 				console.log('Mining...', waveTxn.hash);
 
 				await waveTxn.wait();
@@ -189,7 +190,7 @@ const getAllWaves = async () => {
 				console.log('Retrieved total wave count...', count.toNumber());
 				document.getElementById(
 					'totalWaves'
-				).innerHTML = `Total waves 👋 : ${count}`;
+				).innerHTML = `I've been waved 👋 : ${count} times`;
 				document.getElementById('surprise').innerHTML = 'Surprise Link';
 			} else {
 				document.getElementById(
