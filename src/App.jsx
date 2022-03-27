@@ -247,6 +247,12 @@ const getAllWaves = async () => {
 					</button>
 				</div>
         <div id="totalWaves"></div>
+<div id="wavesList">
+        <div id="wave">
+          <div className="reaction"></div>
+          <div id="waveBody"></div>
+        </div>
+        </div>
     <div id="surprise"></div>
 				<div className="footer">
 					<p>All Rights Reserved © 2022</p>
