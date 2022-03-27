@@ -166,7 +166,7 @@ const getAllWaves = async () => {
 				let count = await wavePortalContract.getTotalWaves();
 				document.getElementById(
 					'totalWaves'
-				).innerHTML = `Total waves 👋 : ${count}`;
+				).innerHTML = `I've been waved 👋 : ${count} times`;
 
 				document.getElementById('surprise').addEventListener('click', go);
 				function go() {
