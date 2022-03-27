@@ -6,9 +6,9 @@ This is my project for the course Build a Web3 App with Solidity + Ethereum Smar
 
 The site is live at https://waveatrahul.netlify.app
 
-Prerequisites
-  Node.js v14+
-  MetaMask browser extension
+# Prerequisites
+    Node.js v14+
+    MetaMask browser extension
 
 # Tech Stack
 
