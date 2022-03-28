@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
       background: #1f2937;
     color: white;
+      background: url(https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
 }
 
 code {
@@ -40,4 +45,9 @@ code {
   text-align: center;
   margin-top: 2rem;
   font-size: 2rem;
+}
+@media screen and (max-width: 800px){
+  body{
+    background-position: inherit;
+  }
 }
