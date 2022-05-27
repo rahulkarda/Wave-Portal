@@ -33,7 +33,7 @@ While improve this project, I would start by implementing the following features
    3. Transition to mainnet network on Ethereum
               
 ## Lessons Learned
-I leaned the basics of Solidity and how to write + deploy a smart contract to the blockchain, and build a Web3 client app to interact with the contract. I combined Solidity with ViteJS library to implement a smart contract which allows the user to send me a message through the blockchain. I learned how the data moves on the blockchain.
+I learned the basics of Solidity and how to write + deploy a smart contract to the blockchain, and build a Web3 client app to interact with the contract. I combined Solidity with ViteJS library to implement a smart contract which allows the user to send me a message through the blockchain. I learned how the data moves on the blockchain.
 
 ## Prerequisites
     1.Node.js v14+
